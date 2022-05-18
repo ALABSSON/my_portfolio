@@ -112,5 +112,31 @@
         height: 200px;
     }
 
-    
+    .body3{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .body_3_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        margin-top: -3px;
+    }
+
+    .body_3_2_1{
+        height: 100px;
+        width: 300px;
+        padding: 5px;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+
+    .body_3_2_1 img{
+        margin-left: 20px;
+        height: 50px;
+    }
 }
