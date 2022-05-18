@@ -1,0 +1,116 @@
+@media (max-width: 991px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header_list{
+        display: none;
+        position: absolute;
+        top: 70px;
+        /* left: 0; */
+        right: 0;
+        /* flex-direction: column; */
+    }
+
+    .header_list.show{
+        display: block;
+    }
+
+    .header_list ul{
+         display: block;
+        flex-direction: column;
+    }
+
+    .menu{
+        display: flex;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+    .body1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        /* background-color: blue; */
+        box-shadow: 1px 1px 10px black;
+    }
+
+    .body_1_1 h1{
+        /* margin-left: 50px; */
+        font-size: 30px;
+        font-weight: 800;
+        color: rgb(12, 86, 111);
+        line-height: 60px;
+    }
+    
+    .body_1_1 p{
+        font-size: 25px;
+        font-weight: 650;
+        color: deepskyblue;
+        line-height: 35px;
+    }
+    
+    .body_1_1 span{
+        font-size: 25px;
+        font-weight: 550;
+        color: red;
+        line-height: 35px;
+    }
+    
+    
+    .body_1_2 img{
+        height: 350px; 
+    }
+
+    .body2{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+
+    .body_2_1{
+        margin-top: 20px;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .body_2_1 h1{
+        font-size: 30px;
+        font-weight: 900;
+        color: red;
+        line-height: 50px;
+    }
+    
+    .body_2_1 p{
+        font-size: 25px;
+        font-weight: 600;
+        color: rgb(12, 86, 111);
+        line-height: 40px;
+        border-bottom: 2px red solid;
+        border-top: 2px red solid;
+    }
+    
+    .body_2_1 span{
+        font-size: 14px;
+        font-weight: 600;
+        color: deepskyblue;
+        text-align: center;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .body_2_2 img{
+        height: 200px;
+    }
+
+    
+}
